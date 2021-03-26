@@ -8,17 +8,15 @@
         <thead class="thead-light">
             <tr>
                 <th>Datum</th>
-                <th>Code</th>
-                <th>Naam</th>
                 <th>Duur</th>
+                <th>Naam</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let cursus of service.list">
                 <td>{{cursus.cursusTijd}}</td>
-                <td>{{cursus.cursusCode}}</td>
-                <td>{{cursus.cursusNaam}}</td>
                 <td>{{cursus.duur}}</td>
+                <td>{{cursus.cursusNaam}}</td>
             </tr>
         </tbody>
     </table>   
